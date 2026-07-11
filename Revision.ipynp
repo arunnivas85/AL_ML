@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyP2OLCP0xUnOmTOYdUdnPCZ",
+      "authorship_tag": "ABX9TyOh98vmCj7r1tNPkuBEpKPn",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -47,93 +47,7 @@
       ],
       "source": [
         "print(\"This is Test\")"
-        import numpy as np
-
-# a = np.array([1,2,3,4,5])
-# print(a)
-
-# z=np.zeros((3,4))
-# print(z)
-
-# o=np.ones((2,3))
-# print(o)
-
-# ar=np.arange(0,10,2)
-# print(ar)
-
-# l= np.linspace(1,10,5)   
-# print(l)
-
-# r=np.random.randn(3,3)
-# print(r)
-
-# print("---------")
-
-# print(a.shape)
-# print(a.ndim)  #n dimension
-# a.dtype  
-# a.size
-
-
-# a = np.array([[1,2,3], [4,5,6], [7,8,9]])
-# a[1,2]
-# a[0,:]
-# a[:,1]
-# a[1:,:2]
-# a[a>8]   
-
-# #     0  1  2
-# # 0  [1, 2, 3]
-# # 1  [4, 5, 6]
-# # 2  [7, 8, 9]
-
-
-# a=np.array([1,2,3])
-# b=np.array([10,20,30])
-# c=np.array([9,16,25])
-
-# a+b
-# a * 2
-# np.sqrt(c)
-# np.dot(a,b)  # (1*10) + (2*20) + (3*30)   == 140
-
-
-# m=np.ones((3,3))
-# print(m)
-# row=np.array((1,2,3))
-# print(row)
-
-# m+row
-#   #  [2., 3., 4.],
-#   #  [2., 3., 4.],
-#   #  [2., 3., 4.]
-
-a = np.array([[1,2,3],[4,5,6]])
-
-#print(a)
-np.sum(a)
-np.sum(a, axis=0)   # [5, 7, 9]
-np.sum(a, axis=1)   # [ 6, 15]
-
-# [1 2 3]
-# [4 5 6]
-
       ]
-    },
-    {
-      "cell_type": "code",
-      "source": [],
-      "metadata": {
-        "id": "Cn9S-YHgO710"
-      },
-      "execution_count": null,
-      "outputs": []
     }
   ]
 }
-
-
-
-
-
-
